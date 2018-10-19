@@ -1,0 +1,3 @@
+/home/illusion/code/opencv/installOpenCV/testOpenCV/build/CMakeFiles/edit_cache.dir
+/home/illusion/code/opencv/installOpenCV/testOpenCV/build/CMakeFiles/rebuild_cache.dir
+/home/illusion/code/opencv/installOpenCV/testOpenCV/build/CMakeFiles/testOpenCV.dir
