@@ -2,9 +2,9 @@
 
 echo "aliyun source mirror"
 
-SOURCEFILE=/etc/apt/
+SOURCEFILE=/etc/apt
 
-cp $SOURCEFILE/source.list $SOURCEFILE/source.list.bak
+cp $SOURCEFILE/sources.list $SOURCEFILE/sources.list.bak
 
 (
 cat << EOF
@@ -25,6 +25,6 @@ deb-src http://mirrors.aliyun.com/ubuntu/ xenial-proposed main restricted univer
 deb http://archive.canonical.com/ubuntu/ xenial partner
 deb http://extras.ubuntu.com/ubuntu/ xenial main
 EOF
-) > $SOURCEFILE/source.list
+) > $SOURCEFILE/sources.list
 
 echo "done"
