@@ -93,9 +93,88 @@ body{
 
 
 .func{
-    padding: 60px 0;
+    /* padding: 60px 0; */
+    padding-top: 60px;
+    padding-bottom: 20px;
 }
 
 .icon img{
     width: 45px;
+}
+
+.functext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-content: center; */
+    align-items: center;
+
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.functitle h3{
+    margin: 0px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.funcdetail{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.funcdetail{
+    /* padding-left: 20px;
+    padding-right: 15px;
+    padding-bottom: 0%;
+    padding-top: 0%; */
+    padding: 0 15px;
+}
+
+.detail{
+    height: 200px;
+    width: 30%;
+    /* padding-left: 20px;
+    padding-right: 15px;
+    padding-bottom: 0;
+    padding-top: 0; */
+    margin: 5px;
+}
+.detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.detailtext{
+    padding-left: 10px;
+}
+
+.funcname{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.summary{
+    font-size: 14px;
+    opacity: .8;
+}
+
+.part{
+    padding: 60px 0;
+}
+.partcontain{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.parttext{
+    font-size: 16px;
+    line-height: 1.8em;
+    -webkit-font-smoothing: antialiased;
 }
